@@ -4,7 +4,7 @@ Mais um sistema de mensagens em RESTful
 
 ## CONFIGURANDO O AMBIENTE DE DESENVOLVIMENTO
 
-1) Clone o projeto com `git clone <urldobitbucket>`.
+1) Clone o projeto
 
 2) Instale o [Composer](http://getcomposer.org/) se não tiver.
 
@@ -17,9 +17,9 @@ chmod 777 runtime
 chmod 777 web/assets
 ```
 
-4) Crie o arquivo .env para definir as variáveis de ambiente da aplicação. Um exemplo está na pasta raiz do projeto.
+4) Instale o Redis e o cliente PHP do redis
 
-5) Instale o Redis e o cliente PHP do redis
+5) Crie o arquivo .env para definir as variáveis de ambiente da aplicação. Um exemplo está na pasta raiz do projeto.
 
 6) Ative a reescrita de URL em seu apache
 
