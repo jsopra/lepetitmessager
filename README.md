@@ -2,6 +2,8 @@
 
 Mais um sistema de mensagens em RESTful
 
+Utiliza Yii2 + Redis
+
 ## CONFIGURANDO O AMBIENTE DE DESENVOLVIMENTO
 
 1) Clone o projeto
