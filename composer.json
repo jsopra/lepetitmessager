@@ -1,10 +1,7 @@
 {
     "minimum-stability": "stable",
     "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:perspectivain/yii2-phactory.git"
-        }
+
     ],
     "minimum-stability": "stable",
     "require": {
@@ -17,10 +14,9 @@
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
-        "yiisoft/yii2-gii": "*",
         "codeception/codeception": "*",
         "codeception/specify": "*",
-        "perspectiva/yii2-phactory": "*"
+        "flow/jsonpath": "*"
     },
     "suggest": {
 

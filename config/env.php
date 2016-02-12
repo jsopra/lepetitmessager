@@ -7,7 +7,8 @@ try {
         'COOKIES_KEY',
         'REDIS_HOST',
         'REDIS_DATABASE',
-        'REDIS_PORT'
+        'REDIS_PORT',
+        'REDIS_TEST_DATABASE',
     ])->notEmpty();
 
     $dotenv->required([

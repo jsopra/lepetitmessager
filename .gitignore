@@ -4,3 +4,7 @@ runtime/*
 !runtime/.gitignore
 .env
 vendor/**
+
+tests/_output/*
+tests/_output/*
+tests/_output/*
