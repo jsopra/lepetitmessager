@@ -30,7 +30,7 @@ chmod 777 web/assets
         ServerName lepetitmessager.dev
         DocumentRoot /seu/servidor/web/lepetitmessager/web
 
-        <Directory /home/juliano/www/lepetitmessager/web>
+        <Directory /seu/servidor/web/lepetitmessager/web>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
@@ -45,7 +45,7 @@ chmod 777 web/assets
         DocumentRoot /seu/servidor/web/lepetitmessager/web
         SetEnv ENVIRONMENT test
 
-        <Directory /home/juliano/www/lepetitmessager/web>
+        <Directory /seu/servidor/web/lepetitmessager/web>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride All
                 Order allow,deny
@@ -86,6 +86,8 @@ Para rodar os testes, faça:
 ```bash
 ./vendor/bin/codecept run
 ```
+
+Os testes estão separados por testes de [API](https://github.com/jsopra/lepetitmessager/tree/master/tests/api/message) e testes [unitários](https://github.com/jsopra/lepetitmessager/tree/master/tests/unit)
 
 Consulte o [tutorial do Codeception](http://codeception.com/docs/01-Introduction)
 para mais detalhes.
