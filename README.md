@@ -69,7 +69,7 @@ Enfim pronto para executar o sistema!
 
 ##USANDO A FERRAMENTA
 
-E.G http://localhost/lepetitmessager/web/messages
+E.G http://lepetitmessager.dev/messages
 
 As API's incluídas são:
 
