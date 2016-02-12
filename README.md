@@ -87,7 +87,7 @@ Para rodar os testes, faça:
 ./vendor/bin/codecept run
 ```
 
-Os testes estão separados por testes de [API](https://github.com/jsopra/lepetitmessager/tree/master/tests/api/message) e testes [unitários](https://github.com/jsopra/lepetitmessager/tree/master/tests/unit)
+Os testes estão separados por testes de [API](https://github.com/jsopra/lepetitmessager/tree/master/tests/api/message) e testes [unitários](https://github.com/jsopra/lepetitmessager/tree/master/tests/unit/models)
 
 Consulte o [tutorial do Codeception](http://codeception.com/docs/01-Introduction)
 para mais detalhes.
